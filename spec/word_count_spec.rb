@@ -8,4 +8,7 @@ describe('String#word_count') do
   it("handles all uppercase entries") do
     expect(("WHAT IS MY NAME").word_count("is")).to(eq(1))
   end
+  it("handles mixed case entries") do
+    expect(("whAt IS my NAme").word_count("is")).to(eq(1))
+  end
 end

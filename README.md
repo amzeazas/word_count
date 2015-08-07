@@ -13,7 +13,7 @@ Setup
 1. Go to https://git.heroku.com/sheltered-wave-5615.git.
 2. Input a sentence.
 3. Input a single word that you would like counted. *NOTE: you must enter only 1 word in this field.*
-4. Click the "Count!" button.
+4. Click the "COUNT" button.
 
 Technologies Used
 

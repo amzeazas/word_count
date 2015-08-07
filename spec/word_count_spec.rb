@@ -12,6 +12,6 @@ describe('String#word_count') do
     expect(("whAt IS my NAme").word_count("is")).to(eq(1))
   end
   it("handles non-letter characters") do
-    expect(("whAt IS my NAme & name?").word_count("is")).to(eq(1))
+    expect(("whAt IS my NAme & name?").word_count("name")).to(eq(2))
   end
 end

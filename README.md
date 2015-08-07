@@ -1,8 +1,8 @@
 Word Count
 
 version 1.0, 7 August 2015
-
 By Alexa Zeazas
+
 
 Description
 

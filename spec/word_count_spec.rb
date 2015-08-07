@@ -11,4 +11,7 @@ describe('String#word_count') do
   it("handles mixed case entries") do
     expect(("whAt IS my NAme").word_count("is")).to(eq(1))
   end
+  it("handles non-letter characters") do
+    expect(("whAt IS my NAme & name?").word_count("is")).to(eq(1))
+  end
 end

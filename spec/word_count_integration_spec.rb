@@ -9,7 +9,7 @@ describe('the word count path', {:type => :feature}) do
     visit('/')
     fill_in('word', :with => 'name')
     fill_in('compare', :with => 'my name is name')
-    click_button('Send')
+    click_button('Count!')
     expect(page).to have_content('"name" shows up in "my name is name" 2 times')
   end
 end

@@ -1,12 +1,17 @@
-<h1>Welcome to the Word Count Machine!</h1>
+<center>
+<h1><font color="#883EBA">Welcome to the Word Count Machine!</font></h1>
+<h3>You can use this handy machine to count the number of times a specific word appears in a sentence.</h3>
+<h3>Once you enter your sentence and the word you would like counted, make sure to hit <font color="#2f96b4">Count</font> to see your results!</h3>
+</center>
+<br>
 <form action="/count">
   <div class="form-group">
      <label for="compare">Please enter a sentence.</label>
-     <input id="compare" name="compare" class="form-control" type="text">
+     <input id="compare" name="compare" class="form-control" type="text" required>
   </div>
   <div class="form-group">
      <label for="word">What word would you like to count?</label>
-     <input id="word" name="word" class="form-control" type="text">
+     <input id="word" name="word" class="form-control" type="text" required>
   </div>
-  <button type="submit" class="btn-success">Count!</button>
+  <center><button type="submit" class="btn-info">Count</button></center>
 </form>

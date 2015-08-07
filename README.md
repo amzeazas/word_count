@@ -10,7 +10,7 @@ This app will take a user-inputted word and count how many times it appears in a
 
 Setup
 
-1. Go to https://still-bastion-5442.herokuapp.com/.
+1. Go to https://git.heroku.com/sheltered-wave-5615.git.
 2. Input a sentence.
 3. Input a single word that you would like counted. *NOTE: you must enter only 1 word in this field.*
 4. Click the "Count!" button.

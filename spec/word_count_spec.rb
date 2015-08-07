@@ -14,4 +14,7 @@ describe('String#word_count') do
   it("handles non-letter characters") do
     expect(("whAt IS my NAme & name?").word_count("name")).to(eq(2))
   end
+  it("returns false if word does not appear in sentence") do
+    expect(("whAt IS my NAme & name?").word_count("how")).to(eq(0))
+  end
 end

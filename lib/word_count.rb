@@ -5,7 +5,12 @@ class String
 
     new_array = new_string.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
 
-    final_count = new_array.fetch(target_word)
+    if new_array.include?(target_word)
+      final_count = new_array.fetch(target_word)
+    else
+      final_count = 0
+    end
+
     final_count
   end
 end
